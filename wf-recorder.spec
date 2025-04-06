@@ -15,9 +15,9 @@ BuildSystem:    meson
 
 BuildRequires: pkgconfig(OpenCL)
 BuildRequires: pkgconfig(gbm)
-BuildRequires: libavutil
-BuildRequires: libavcodec
-BuildRequires: libpulseaudio-devel
+BuildRequires: lib64avutil
+BuildRequires: lib64avcodec
+BuildRequires: lib64pulseaudio-devel
 BuildRequires: ffmpeg-devel
 BuildRequires: pkgconfig(libdrm)
 BuildRequires: pkgconfig(libpipewire-0.3) >= 1.0.5
