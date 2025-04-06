@@ -17,7 +17,7 @@ BuildRequires: pkgconfig(OpenCL)
 BuildRequires: pkgconfig(gbm)
 BuildRequires: libavutil
 BuildRequires: libavcodec
-BuildRequires: libpulseaudio
+BuildRequires: libpulseaudio-devel
 BuildRequires: ffmpeg
 BuildRequires: pkgconfig(libdrm)
 BuildRequires: pkgconfig(libpipewire-0.3) >= 1.0.5
