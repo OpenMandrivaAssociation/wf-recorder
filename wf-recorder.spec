@@ -15,11 +15,8 @@ BuildSystem:    meson
 
 BuildRequires: pkgconfig(OpenCL)
 BuildRequires: pkgconfig(gbm)
-
 BuildRequires: %{mklibname avutil}
-BuildRequires: %{mklibname avcodecs}
-
-
+BuildRequires: %{mklibname avcodec}
 BuildRequires: pulseaudio-devel
 BuildRequires: ffmpeg-devel
 BuildRequires: pkgconfig(libdrm)
