@@ -3,7 +3,7 @@
 
 Name:		wf-recorder
 Version:	1~git%{shortcommit}
-Release:	1
+Release:	2
 Source0:	https://github.com/ammen99/wf-recorder/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
 Patch0:   wf-recorder-use-free-codecs.patch
 Summary:	Screen recorder for wlroots-based compositors eg swaywm
@@ -15,9 +15,11 @@ BuildSystem:    meson
 
 BuildRequires: pkgconfig(OpenCL)
 BuildRequires: pkgconfig(gbm)
-BuildRequires: lib64avutil
-BuildRequires: lib64avcodec
-BuildRequires: lib64pulseaudio-devel
+
+BuildRequires: avutil
+BuildRequires: avcodec
+BuildRequires: pulseaudio-devel
+
 BuildRequires: ffmpeg-devel
 BuildRequires: pkgconfig(libdrm)
 BuildRequires: pkgconfig(libpipewire-0.3) >= 1.0.5
