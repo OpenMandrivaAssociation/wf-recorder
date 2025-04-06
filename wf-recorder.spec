@@ -18,7 +18,7 @@ BuildRequires: pkgconfig(gbm)
 BuildRequires: libavutil
 BuildRequires: libavcodec
 BuildRequires: libpulseaudio-devel
-BuildRequires: ffmpeg
+BuildRequires: ffmpeg-devel
 BuildRequires: pkgconfig(libdrm)
 BuildRequires: pkgconfig(libpipewire-0.3) >= 1.0.5
 BuildRequires: pkgconfig(wayland-client) >= 1.20
