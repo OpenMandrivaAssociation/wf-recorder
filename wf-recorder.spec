@@ -3,7 +3,7 @@
 
 Name:		wf-recorder
 Version:	1~git%{shortcommit}
-Release:	2
+Release:	3
 Source0:	https://github.com/ammen99/wf-recorder/archive/%{commit}/%{name}-%{shortcommit}.tar.gz
 Patch0:   wf-recorder-use-free-codecs.patch
 Summary:	Screen recorder for wlroots-based compositors eg swaywm
